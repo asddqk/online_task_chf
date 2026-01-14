@@ -6,7 +6,8 @@
 3.	Judge 
 4.	SandboxManager 
 5.	WebServer 
-6.	WebProblemLoader 
+6.	WebProblemLoader
+
 Архитектура программы:
 Консольная ветка: Main (Контроллер UI) → ProblemLoader (Базовый загрузчик) → Judge (Ядро проверки) → SandboxManager (Инфраструктура).
 Веб-ветка: WebServer (REST контроллер) → WebProblemLoader (Специализированный загрузчик) → Judge (То же ядро) → SandboxManager .
